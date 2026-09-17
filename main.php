@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php
+require_once __DIR__ . '/functions/server.php';
+require_once __DIR__ . '/router/router.php';
+require_once __DIR__ . '/middleware/middleware.php';
+require_once __DIR__ . '/dispatcher/dispatcher.php';
+require_once __DIR__ . '/controllers/usuario_controller';
+require_once __DIR__ . '/services/usuario_service.php';
